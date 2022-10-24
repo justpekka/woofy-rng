@@ -12,21 +12,22 @@
   <h1>RNG configuration panel.</h1>
 
   <form action="#" method="get">
-    <input type="radio" name="rng-type" id="rng-single" value="rng-single"><label for="rng-single">Single type dice</label>
+    <input type="radio" name="rng-type" id="rng-single" value="rng-single" checked><label for="rng-single">Single type dice</label>
     <input type="radio" name="rng-type" id="rng-multiple" value="rng-multiple"><label for="rng-multiple">Multiple type dice</label>
 
     <div class="input-group" id="rng-single-container">
       <input type="text" name="total-dice" id="total-dice">
       <select name="dice-type" id="dice-type">
-        <option value="6">d-6</option>
-        <option value="10">d-10</option>
-        <option value="20">d-20</option>
+        <option value="6">dice-6</option>
+        <option value="10">dice-10</option>
+        <option value="20">dice-20</option>
       </select>
     </div>
 
     <div class="input-group" id="rng-multiple-container">
 
     </div>
+    
     <input type="submit" value="Submit">
   </form>
 
